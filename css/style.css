@@ -1,0 +1,78 @@
+#block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 600px;
+    margin: auto;
+    height: 600px;
+}
+
+.child {
+    width: 144px;
+    height: 144px;
+    border: 1px solid grey;
+    background: white;
+    overflow: hidden;
+    margin: 0 2px;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    align-items: center;
+}
+#timercount{
+    padding-left: 30px;
+}
+form {
+    text-align: center;
+}
+
+input {
+    margin: 20px 0;
+    box-shadow: 0 0 3px #004271;
+    border-radius: 5px;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+input[type="button"] {
+    background: #004271;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.blue_click {
+    background: blue;
+}
+
+.yellow_click {
+    background: yellow;
+}
+
+.red_click {
+    background: red;
+}
+
+.green_click {
+    background: green;
+}
+
+.orange_click {
+    background: orange;
+}
+
+.purple_click {
+    background: purple;
+}
+
+.grey_click {
+    background: grey;
+}
+
+.black_click {
+    background: black;
+}
